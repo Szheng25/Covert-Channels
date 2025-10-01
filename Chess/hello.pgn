@@ -1,0 +1,76 @@
+ubuntu-22-04-min-desktop$python3 chess_stego.py
+Encode (e) or Decode (d)? e
+Input file: hello.txt
+Output PGN file: hello.pgn
+Input file: 48 bits (6 bytes)
+Initial board FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+Legal moves count: 20
+Max binary length: 4, File bit index: 0/48
+Trying file chunk: 0110 (4 bits)
+Match found for chunk 0110, move: c2c3
+Selected move: c2c3, Bits encoded: 4, New file bit index: 4/48
+Legal moves count: 20
+Max binary length: 4, File bit index: 4/48
+Trying file chunk: 1000 (4 bits)
+Match found for chunk 1000, move: d7d5
+Selected move: d7d5, Bits encoded: 4, New file bit index: 8/48
+Legal moves count: 21
+Max binary length: 4, File bit index: 8/48
+Trying file chunk: 0110 (4 bits)
+Match found for chunk 0110, move: d1a4
+Selected move: d1a4, Bits encoded: 4, New file bit index: 12/48
+Legal moves count: 6
+Max binary length: 2, File bit index: 12/48
+Trying file chunk: 01 (2 bits)
+Match found for chunk 01, move: b8c6
+Selected move: b8c6, Bits encoded: 2, New file bit index: 14/48
+Legal moves count: 34
+Max binary length: 5, File bit index: 14/48
+Trying file chunk: 01011 (5 bits)
+Match found for chunk 01011, move: a4d1
+Selected move: a4d1, Bits encoded: 5, New file bit index: 19/48
+Legal moves count: 29
+Max binary length: 4, File bit index: 19/48
+Trying file chunk: 0110 (4 bits)
+Match found for chunk 0110, move: c6b4
+Selected move: c6b4, Bits encoded: 4, New file bit index: 23/48
+Legal moves count: 21
+Max binary length: 4, File bit index: 23/48
+Trying file chunk: 0011 (4 bits)
+Match found for chunk 0011, move: b2b3
+Selected move: b2b3, Bits encoded: 4, New file bit index: 27/48
+Legal moves count: 31
+Max binary length: 4, File bit index: 27/48
+Trying file chunk: 0110 (4 bits)
+Match found for chunk 0110, move: b4c6
+Selected move: b4c6, Bits encoded: 4, New file bit index: 31/48
+Legal moves count: 20
+Max binary length: 4, File bit index: 31/48
+Trying file chunk: 0011 (4 bits)
+Match found for chunk 0011, move: b3b4
+Selected move: b3b4, Bits encoded: 4, New file bit index: 35/48
+Legal moves count: 29
+Max binary length: 4, File bit index: 35/48
+Trying file chunk: 0111 (4 bits)
+Match found for chunk 0111, move: c6b8
+Selected move: c6b8, Bits encoded: 4, New file bit index: 39/48
+Legal moves count: 22
+Max binary length: 4, File bit index: 39/48
+Trying file chunk: 1000 (4 bits)
+Match found for chunk 1000, move: d1b3
+Selected move: d1b3, Bits encoded: 4, New file bit index: 43/48
+Legal moves count: 28
+Max binary length: 4, File bit index: 43/48
+Trying file chunk: 0101 (4 bits)
+Match found for chunk 0101, move: b8c6
+Selected move: b8c6, Bits encoded: 4, New file bit index: 47/48
+Legal moves count: 27
+Max binary length: 1, File bit index: 47/48
+Trying file chunk: 0 (1 bits)
+Match found for chunk 0, move: a2a3
+Selected move: a2a3, Bits encoded: 1, New file bit index: 48/48
+Game over: False, EOF reached: True
+Game saved, PGNs so far: 1, Move stack: 0
+All bits encoded, breaking.
+Encoded 48 bits into 1 PGN(s) in 0.008s.
+PGN saved!
