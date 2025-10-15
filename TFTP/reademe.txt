@@ -1,0 +1,5 @@
+# Server
+- sudo python3 fake_tftp_server.py
+
+# Client
+- sudo python3 fake_tftp_client.py
